@@ -1,0 +1,173 @@
+
+:root{
+    --text-color: #202124;
+    --border-color: #DCDCDD;
+    --btn-color: #FAFAFA;
+    --footer-color: #F2F2F2
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; /* 10px ... mac dinh la 16px*/
+    line-height: 1.6rem; /*16 px*/
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.container{
+    text-align: center;
+    position: relative;
+}
+
+.container .uti{
+    position: absolute;
+    right: 20px;
+    top:-122px;
+}
+
+.container .uti *{
+    margin-left: 13px;
+}
+
+.container .uti .uti-more{
+    opacity: 0.5;
+  
+}
+
+.container .uti .uti-img{
+    border-radius: 50%;
+}
+
+.container .uti .translate{
+    top: 50%;
+    transform: translateY(30%); 
+}
+
+/* text decoration  */
+
+.text-link-none{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.3rem;
+}
+
+/* logo */
+.logo{
+    margin-top: 130px;
+    margin-left: 16px;
+}
+
+/* search */
+.search{
+    margin-top: 30px;
+    position: relative;
+}
+
+.search .search-text{
+    width: 38%;
+    height: 45px;
+    border-radius: 26px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    padding-left: 40px;
+}
+
+.search .search-find{
+   position: absolute;
+   top:14px;
+   left: 32%;
+}
+
+.search .search-record{
+    position: absolute;
+   top:10px;
+   right: 32%;
+}
+
+/* btn */
+
+.btn{
+    margin-top: 30px;
+    display: inline-flex;
+    width: 18%;
+    justify-content: space-between;
+    font-size: 1.4rem;
+ 
+}
+
+.btn .btn-s{
+    padding: 0 16px;
+    background-color: var(--btn-color);
+    height: 38px;
+    align-items: center;
+    line-height: 38px;
+    font-weight: 400;
+}
+
+.btn .btn-s:hover{
+   
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+    font-weight: 400;
+}
+
+/* google offer */
+
+.offer{
+    margin-top: 40px;
+    font-size: 1.3rem;
+}
+
+.offer .offer-language{
+    text-decoration: none;
+    color: #1a0dab;
+    margin: 0 6px;
+}
+
+/* footer */
+.footer{
+    margin-top: 220px;
+    background-color: var(--footer-color);
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.footer *{
+    padding: 5px ;
+}
+
+
+.contry{
+    text-align: left;
+    margin-left: 10px;
+}
+#Nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#Nav ul{
+    list-style-type: none;
+
+    
+}
+
+#Nav ul li{
+    display: inline-flex;
+  
+}
+
+.footer-text{
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
+}
